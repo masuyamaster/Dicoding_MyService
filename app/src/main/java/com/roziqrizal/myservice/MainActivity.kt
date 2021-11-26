@@ -1,6 +1,5 @@
 package com.roziqrizal.myservice
 
-import MyJobIntentService
 import android.content.ComponentName
 import android.content.Intent
 import android.content.ServiceConnection
