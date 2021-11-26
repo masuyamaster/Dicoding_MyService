@@ -10,7 +10,7 @@ class MyJobIntentService : JobIntentService() {
         internal const val EXTRA_DURATION = "extra_duration"
         private val TAG = MyJobIntentService::class.java.simpleName
         fun enqueueWork(context: Context, intent: Intent){
-//error disini   ->   enqueueWork(context, MyJobIntentService::class.java, JOB_ID, intent)
+            enqueueWork(context, MyJobIntentService::class.java, JOB_ID, intent)
         }
     }
 
